@@ -110,8 +110,6 @@
     card.style.setProperty("--d", (i % 3) * 0.08 + "s");
 
     var media = el("div", "work-card__media");
-    var r = ratioOf(project.ratio);
-    media.style.setProperty("--ratio", String(r));
 
     if (project.poster) {
       var img = el("img");
@@ -135,7 +133,8 @@
     card.appendChild(caption);
 
     // Muted hover preview on desktop. The video only downloads on first hover.
-    if (canHover && project.video && !saveData) {
+    var previewSrc = project.preview || project.video;
+    if (canHover && previewSrc && !saveData) {
       var preview = null;
       card.addEventListener("mouseenter", function () {
         if (!preview) {
@@ -145,7 +144,7 @@
           preview.playsInline = true;
           preview.setAttribute("playsinline", "");
           preview.preload = "auto";
-          preview.src = project.video;
+          preview.src = previewSrc;
           media.insertBefore(preview, play);
         }
         var pr = preview.play();

@@ -35,19 +35,24 @@ window.SITE_CONTENT = {
      RECENT WORK
      One block per project. Put your files in assets/videos and
      assets/images, then write their paths here.
-       video:  the final ad (.mp4)
-       poster: a still frame shown before the video plays (.jpg / .webp)
-       ratio:  "9:16" for vertical, "1:1" for square, "16:9" for wide
+       video:   the final ad (.mp4)
+       poster:  a still frame shown before the video plays (.jpg / .webp)
+       preview: optional short silent clip that plays when a card is
+                hovered on desktop. Keeps the page light. If empty,
+                the full video is used.
+       ratio:   shape of the video in the project view:
+                "9:16" vertical, "4:3", "1:1" square, "16:9" wide
      Add or remove blocks to change how many projects are shown.
      --------------------------------------------------------------- */
   projects: [
     {
-      brand: "Brand name",
+      brand: "NFT Energy Drinks",
       goal: "One line goal of the brand.",
       delivered: "What I delivered.",
-      video: "",
-      poster: "",
-      ratio: "9:16"
+      video: "assets/videos/nft-energy-drinks.mp4",
+      poster: "assets/images/nft-energy-drinks.jpg",
+      preview: "assets/videos/nft-energy-drinks-preview.mp4",
+      ratio: "4:3"
     },
     {
       brand: "Brand name",
