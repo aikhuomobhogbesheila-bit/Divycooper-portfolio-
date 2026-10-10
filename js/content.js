@@ -11,7 +11,7 @@ window.SITE_CONTENT = {
 
   /* Link for the "Book a call" button (for example a Calendly link).
      If left empty, the button opens an email to you instead. */
-  bookingUrl: "",
+  bookingUrl: "https://calendly.com/divycooper/30min",
 
   /* Social links. Paste the full link, e.g. "https://instagram.com/yourname" */
   socials: {
