@@ -46,36 +46,40 @@ window.SITE_CONTENT = {
      --------------------------------------------------------------- */
   projects: [
     {
-      brand: "Brand name",
+      brand: "NFT Energy Drinks",
       goal: "One line goal of the brand.",
       delivered: "What I delivered.",
-      video: "",
-      poster: "",
-      ratio: "9:16"
+      video: "assets/videos/nft-energy-drinks.mp4",
+      poster: "assets/images/nft-energy-drinks.jpg",
+      preview: "assets/videos/nft-energy-drinks-preview.mp4",
+      ratio: "4:3"
     },
     {
-      brand: "Brand name",
+      brand: "Multi Kross LTD",
       goal: "One line goal of the brand.",
       delivered: "What I delivered.",
-      video: "",
-      poster: "",
-      ratio: "9:16"
+      video: "assets/videos/multi-kross.mp4",
+      poster: "assets/images/multi-kross.jpg",
+      preview: "assets/videos/multi-kross-preview.mp4",
+      ratio: "4:3"
     },
     {
-      brand: "Brand name",
+      brand: "FFPOSTALSERVICE (fan made)",
       goal: "One line goal of the brand.",
       delivered: "What I delivered.",
-      video: "",
-      poster: "",
-      ratio: "9:16"
+      video: "assets/videos/ffpostalservice.mp4",
+      poster: "assets/images/ffpostalservice.jpg",
+      preview: "assets/videos/ffpostalservice-preview.mp4",
+      ratio: "4:3"
     },
     {
-      brand: "Brand name",
+      brand: "NFT ENERGY DRINKS",
       goal: "One line goal of the brand.",
       delivered: "What I delivered.",
-      video: "",
-      poster: "",
-      ratio: "9:16"
+      video: "assets/videos/nft-energy-drinks-summer.mp4",
+      poster: "assets/images/nft-energy-drinks-summer.jpg",
+      preview: "assets/videos/nft-energy-drinks-summer-preview.mp4",
+      ratio: "16:9"
     },
     {
       brand: "Brand name",
