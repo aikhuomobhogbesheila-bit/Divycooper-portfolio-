@@ -15,8 +15,8 @@ window.SITE_CONTENT = {
 
   /* Social links. Paste the full link, e.g. "https://instagram.com/yourname" */
   socials: {
-    instagram: "",
-    tiktok: "",
+    instagram: "https://www.instagram.com/divycooper/",
+    tiktok: "https://www.tiktok.com/@divycooper",
     x: "",
     youtube: ""
   },
