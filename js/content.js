@@ -82,20 +82,40 @@ window.SITE_CONTENT = {
       ratio: "16:9"
     },
     {
-      brand: "Brand name",
+      brand: "Mira",
       goal: "One line goal of the brand.",
       delivered: "What I delivered.",
-      video: "",
-      poster: "",
-      ratio: "9:16"
+      video: "assets/videos/mira.mp4",
+      poster: "assets/images/mira.jpg",
+      preview: "assets/videos/mira-preview.mp4",
+      ratio: "16:9"
     },
     {
-      brand: "Brand name",
+      brand: "Presh Stitches",
       goal: "One line goal of the brand.",
       delivered: "What I delivered.",
-      video: "",
-      poster: "",
-      ratio: "9:16"
+      video: "assets/videos/presh-stitches.mp4",
+      poster: "assets/images/presh-stitches.jpg",
+      preview: "assets/videos/presh-stitches-preview.mp4",
+      ratio: "4:3"
+    },
+    {
+      brand: "Short film",
+      goal: "One line goal of the brand.",
+      delivered: "What I delivered.",
+      video: "assets/videos/colour-noir.mp4",
+      poster: "assets/images/colour-noir.jpg",
+      preview: "assets/videos/colour-noir-preview.mp4",
+      ratio: "16:9"
+    },
+    {
+      brand: "Flova",
+      goal: "One line goal of the brand.",
+      delivered: "What I delivered.",
+      video: "assets/videos/flova.mp4",
+      poster: "assets/images/flova.jpg",
+      preview: "assets/videos/flova-preview.mp4",
+      ratio: "4:3"
     }
   ],
 
