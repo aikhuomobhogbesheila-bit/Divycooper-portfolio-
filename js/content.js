@@ -46,13 +46,12 @@ window.SITE_CONTENT = {
      --------------------------------------------------------------- */
   projects: [
     {
-      brand: "NFT Energy Drinks",
+      brand: "Brand name",
       goal: "One line goal of the brand.",
       delivered: "What I delivered.",
-      video: "assets/videos/nft-energy-drinks.mp4",
-      poster: "assets/images/nft-energy-drinks.jpg",
-      preview: "assets/videos/nft-energy-drinks-preview.mp4",
-      ratio: "4:3"
+      video: "",
+      poster: "",
+      ratio: "9:16"
     },
     {
       brand: "Brand name",
