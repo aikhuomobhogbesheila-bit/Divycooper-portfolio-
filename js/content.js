@@ -35,6 +35,9 @@ window.SITE_CONTENT = {
      RECENT WORK
      One block per project. Put your files in assets/videos and
      assets/images, then write their paths here.
+       goal:      "The brief" line in the project view
+       delivered: "What I delivered" line in the project view
+                  (leave either empty to hide it)
        video:   the final ad (.mp4)
        poster:  a still frame shown before the video plays (.jpg / .webp)
        preview: optional short silent clip that plays when a card is
@@ -47,8 +50,8 @@ window.SITE_CONTENT = {
   projects: [
     {
       brand: "NFT Energy Drinks",
-      goal: "One line goal of the brand.",
-      delivered: "What I delivered.",
+      goal: "NFT Energy Xplosion needed a cinematic spec ad targeting creators, athletes, and grind-culture audiences.",
+      delivered: "A 45-second match-cut driven AI ad across 7 scenes : F1, surgery, surfing, modeling, chef, founder, and esports.",
       video: "assets/videos/nft-energy-drinks.mp4",
       poster: "assets/images/nft-energy-drinks.jpg",
       preview: "assets/videos/nft-energy-drinks-preview.mp4",
@@ -56,8 +59,8 @@ window.SITE_CONTENT = {
     },
     {
       brand: "Multi Kross LTD",
-      goal: "One line goal of the brand.",
-      delivered: "What I delivered.",
+      goal: "MULTI KROSS NIG LTD, a Port Harcourt fumigation company, wanted a realistic 45-second ad with their CEO and crew.",
+      delivered: "I built the ad's plan: CEO character sheet, shot-by-shot image and video prompts, voiceover script, and premium flyer concepts.",
       video: "assets/videos/multi-kross.mp4",
       poster: "assets/images/multi-kross.jpg",
       preview: "assets/videos/multi-kross-preview.mp4",
@@ -65,8 +68,8 @@ window.SITE_CONTENT = {
     },
     {
       brand: "FFPOSTALSERVICE (fan made)",
-      goal: "One line goal of the brand.",
-      delivered: "What I delivered.",
+      goal: "Self-directed entry for Pollo AI's Wan 3.0 fashion film contest, built as an unofficial fan campaign for FFFPOSTALSERVICE.",
+      delivered: "A 45 second, 11 shot cinematic film concept with full image/video prompts, 6 model cast, and locked style guide.",
       video: "assets/videos/ffpostalservice.mp4",
       poster: "assets/images/ffpostalservice.jpg",
       preview: "assets/videos/ffpostalservice-preview.mp4",
@@ -74,8 +77,8 @@ window.SITE_CONTENT = {
     },
     {
       brand: "NFT ENERGY DRINKS",
-      goal: "One line goal of the brand.",
-      delivered: "What I delivered.",
+      goal: "Energy Wabbits is hiring AI creators, so I skipped pitching and built a spec ad for NFT Energy Xplosion.",
+      delivered: "A 30-second cinematic summer ad in 16:9 with match-cut scenes, made in Gemini, Pixverse and CapCut.",
       video: "assets/videos/nft-energy-drinks-summer.mp4",
       poster: "assets/images/nft-energy-drinks-summer.jpg",
       preview: "assets/videos/nft-energy-drinks-summer-preview.mp4",
@@ -83,8 +86,8 @@ window.SITE_CONTENT = {
     },
     {
       brand: "Mira",
-      goal: "One line goal of the brand.",
-      delivered: "What I delivered.",
+      goal: "Mira's Creators Battle contest asked for a vibe video telling my own Mira story.",
+      delivered: "A 45-second 3D animated vibe video, three scenes, midnight blue and amber palette, custom end card.",
       video: "assets/videos/mira.mp4",
       poster: "assets/images/mira.jpg",
       preview: "assets/videos/mira-preview.mp4",
@@ -92,8 +95,8 @@ window.SITE_CONTENT = {
     },
     {
       brand: "Presh Stitches",
-      goal: "One line goal of the brand.",
-      delivered: "What I delivered.",
+      goal: "A Port Harcourt fashion designer needed a premium, realistic 45 second ad showcasing her tailoring, fabrics and finished outfits.",
+      delivered: "A 45 second AI ad: consistent character, realistic shop scenes, varied camera moves, voiceover script, on-screen service text.",
       video: "assets/videos/presh-stitches.mp4",
       poster: "assets/images/presh-stitches.jpg",
       preview: "assets/videos/presh-stitches-preview.mp4",
@@ -101,8 +104,8 @@ window.SITE_CONTENT = {
     },
     {
       brand: "Short film",
-      goal: "One line goal of the brand.",
-      delivered: "What I delivered.",
+      goal: "",
+      delivered: "",
       video: "assets/videos/colour-noir.mp4",
       poster: "assets/images/colour-noir.jpg",
       preview: "assets/videos/colour-noir-preview.mp4",
@@ -110,8 +113,8 @@ window.SITE_CONTENT = {
     },
     {
       brand: "Flova",
-      goal: "One line goal of the brand.",
-      delivered: "What I delivered.",
+      goal: "I set myself a personal vintage theme reel for my Flova CPP content, using Pinterest inspo for direction.",
+      delivered: "14 cinematic shots with full image and video prompts (Seedance 2.5), built around \"Bubblegum Bitch\" by Marina.",
       video: "assets/videos/flova.mp4",
       poster: "assets/images/flova.jpg",
       preview: "assets/videos/flova-preview.mp4",
