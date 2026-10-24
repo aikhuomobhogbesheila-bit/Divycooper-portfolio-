@@ -185,8 +185,11 @@
 
     $("#player-count").textContent = pad(i + 1) + " / " + pad(projects.length);
     $("#player-brand").textContent = project.brand || "";
-    $("#player-goal").textContent = project.goal || "";
-    $("#player-delivered").textContent = project.delivered || "";
+    [["#player-goal", project.goal], ["#player-delivered", project.delivered]].forEach(function (row) {
+      var dd = $(row[0]);
+      dd.textContent = row[1] || "";
+      dd.parentNode.hidden = !row[1];
+    });
     pMedia.style.setProperty("--r", String(ratioOf(project.ratio)));
 
     pVideo.pause();
