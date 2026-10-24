@@ -104,8 +104,8 @@ window.SITE_CONTENT = {
     },
     {
       brand: "Short film",
-      goal: "",
-      delivered: "",
+      goal: "A self-initiated, dialogue-free noir short for X, built to meet OiiOii's 45-second minimum.",
+      delivered: "\"Wrong Number,\" a black-and-white 16:9 short with red colour isolation, animated in OiiOii.",
       video: "assets/videos/colour-noir.mp4",
       poster: "assets/images/colour-noir.jpg",
       preview: "assets/videos/colour-noir-preview.mp4",
